@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 16px;
+}
+
+.header .logo {
+    width: 4.955625rem;
+    color: var(--color-blue-600);
+}
+
+
+@media (width >=50.625em) {
+    .header {
+        padding-block: 24px;
+    }
+}
+
